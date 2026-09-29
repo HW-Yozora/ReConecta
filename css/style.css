@@ -338,8 +338,19 @@ fieldset{
   border-radius:var(--raio);
   padding:var(--s4);
   background:var(--branco)
+  
 }
 
+input,
+select{
+  color:var(--texto);
+  background-color:var(--branco);
+}
+
+input::placeholder{
+  color:var(--cinza);
+  opacity:1;
+}
 legend{
   padding:0 .5rem;
   color:var(--verde-escuro);
@@ -589,4 +600,25 @@ input[type=radio]{width:auto}
     scroll-behavior:auto!important;
     transition:none!important
   }
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fundo: #182019;
+        --branco: #243027;
+        --texto: #F2F5F2;
+        --cinza: #CBD5CE;
+
+        --verde-escuro: #9ACB9A;
+        --verde: #78B678;
+        --verde-claro: #B8D89B;
+
+        --marrom: #9B8068;
+        --amarelo: #E6C45A;
+        --laranja: #F0A05A;
+        --rosa: #D98AA5;
+
+        --erro: #FF9B9B;
+        --sucesso: #8FD9A8;
+        --borda: #667269;
+    }
 }
