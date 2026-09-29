@@ -45,7 +45,8 @@ export function templateInicio(){
       <div class="hero-media">
         <img
           src="${equipamentos}"
-          alt="Equipamentos eletrônicos recondicionados destinados à inclusão digital">
+          alt="Equipamentos eletrônicos recondicionados destinados à inclusão digital"
+          decoding="async">
       </div>
 
     </section>
