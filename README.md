@@ -30,9 +30,9 @@ A aplicação permite apresentar os projetos da organização, incentivar a part
 ```text
 ReConecta/
 ├── html/
-│   ├── Index.html
-│   ├── Projetos.html
-│   └── Cadastro.html
+│   ├── index.html
+│   ├── projetos.html
+│   └── cadastro.html
 ├── css/
 │   └── style.css
 ├── js/
