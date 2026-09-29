@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="ReConecta: inclusão digital, recondicionamento de equipamentos e sustentabilidade.">
+<title>ReConecta | Inclusão Digital e Sustentabilidade</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#inicio" data-route="inicio" aria-label="ReConecta - início">
+    <span class="brand-name">ReConecta</span>
+    <span class="brand-tagline">Tecnologia com impacto</span>
+  </a>
+
+  <button class="menu-toggle" id="menu-toggle" type="button"
+    aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+    <span></span><span></span><span></span>
+  </button>
+
+  <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+    <a href="#inicio" data-route="inicio">Início</a>
+
+    <div class="dropdown">
+      <button class="dropdown-toggle" type="button"
+        aria-expanded="false" aria-controls="dropdown-menu">
+        Participação
+      </button>
+
+      <div class="dropdown-menu" id="dropdown-menu">
+        <a href="#projetos" data-route="projetos">Projetos</a>
+        <a href="#cadastro" data-route="cadastro">Cadastro</a>
+      </div>
+    </div>
+
+    <a href="#cadastro" data-route="cadastro">Quero participar</a>
+  </nav>
+</header>
+
+<main id="app" tabindex="-1"></main>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<footer class="site-footer">
+  <p>&copy; 2026 ReConecta. Inclusão digital, sustentabilidade e economia circular.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+<script type="module" src="../js/app.js"></script>
+
+</body>
+</html>
