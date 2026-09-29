@@ -1,4 +1,4 @@
-import equipamentos from "../img/equipamentos.jpg";
+import equipamentos from "../img/equipamentos.webp";
 import {projetos,impacto} from "./dados.js";
 
 const escapeHTML=value=>String(value).replace(
